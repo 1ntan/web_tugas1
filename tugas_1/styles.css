@@ -1,13 +1,9 @@
-/* === style.css === */
-/* Tambahan gaya khusus untuk tema toko roti "Mutiara Bloom" */
-
 :root {
   --coklat-tua: #8B4513;
   --coklat-muda: #A0522D;
   --krem: #F5DEB3;
 }
 
-/* Warna latar belakang lembut dan transisi halus */
 body {
   background-color: #FFF8F0;
   color: #3b2f2f;
@@ -15,7 +11,6 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-/* Header lebih elegan */
 header.site-header {
   background-color: var(--coklat-tua);
   box-shadow: 0 3px 8px rgba(0,0,0,0.15);
@@ -70,7 +65,6 @@ footer.site-footer {
   padding: 18px 0;
 }
 
-/* Animasi halus saat halaman dimuat */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(10px); }
   to { opacity: 1; transform: translateY(0); }
@@ -78,3 +72,4 @@ footer.site-footer {
 section {
   animation: fadeIn 0.6s ease both;
 }
+
