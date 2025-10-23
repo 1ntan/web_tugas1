@@ -13,7 +13,6 @@ if ($name === '') $errors[] = 'Nama wajib diisi';
 if ($email === '' || !filter_var($email, FILTER_VALIDATE_EMAIL)) $errors[] = 'Email tidak valid';
 if ($message === '') $errors[] = 'Pesan wajib diisi';
 
-?>
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -86,4 +85,4 @@ if ($message === '') $errors[] = 'Pesan wajib diisi';
   </footer>
 </body>
 </html>
-
+?>
