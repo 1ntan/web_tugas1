@@ -1,6 +1,4 @@
-<?php
-// produk.php
-?>
+<?php // -*- mode: php -*- ?>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -111,6 +109,7 @@
   </script>
 </body>
 </html>
+
 
 
 
