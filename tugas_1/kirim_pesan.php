@@ -1,7 +1,4 @@
 <?php
-// kirim_pesan.php
-// Sederhana: menampilkan konfirmasi. Tidak menyimpan ke database.
-// Pastikan method POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   header('Location: index.php');
   exit;
@@ -78,7 +75,6 @@ if ($message === '') $errors[] = 'Pesan wajib diisi';
     </div>
   </main>
 
-  <!-- Tombol kembali besar di atas footer -->
   <div class="bg-secondary py-10 text-center">
     <a href="index.php" class="bg-accent text-primary font-semibold px-8 py-3 rounded-lg hover:bg-primary hover:text-white transition shadow-md">
       ← Kembali ke Beranda
@@ -90,3 +86,4 @@ if ($message === '') $errors[] = 'Pesan wajib diisi';
   </footer>
 </body>
 </html>
+
