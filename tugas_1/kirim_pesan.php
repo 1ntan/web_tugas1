@@ -1,3 +1,4 @@
+<?php // -*- mode: php -*- ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   header('Location: index.php');
@@ -86,3 +87,4 @@ if ($message === '') $errors[] = 'Pesan wajib diisi';
 </body>
 </html>
 ?>
+
